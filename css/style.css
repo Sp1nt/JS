@@ -1,0 +1,15 @@
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper{
+    padding: 25px;
+
+}
+
+.content-item:not(:first-child){
+    margin: 0 25px;
+}
